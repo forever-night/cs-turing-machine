@@ -18,7 +18,7 @@ namespace TuringMachineSimulator
 
         public TuringMachine(string input)
         {
-            this.tape = new Tape(input);
+            this.tape = new Tape("_" + input);
             this.control = new Control();
             this.currentState = control.GetState();
         }
