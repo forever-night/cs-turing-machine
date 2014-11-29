@@ -1,0 +1,6 @@
+c:\users\anna\documents\visual studio 2013\Projects\TuringMachineSimulator\TuringMachineSimulator\bin\Debug\TuringMachineSimulator.exe.config
+c:\users\anna\documents\visual studio 2013\Projects\TuringMachineSimulator\TuringMachineSimulator\bin\Debug\TuringMachineSimulator.exe
+c:\users\anna\documents\visual studio 2013\Projects\TuringMachineSimulator\TuringMachineSimulator\bin\Debug\TuringMachineSimulator.pdb
+c:\users\anna\documents\visual studio 2013\Projects\TuringMachineSimulator\TuringMachineSimulator\obj\Debug\TuringMachineSimulator.csprojResolveAssemblyReference.cache
+c:\users\anna\documents\visual studio 2013\Projects\TuringMachineSimulator\TuringMachineSimulator\obj\Debug\TuringMachineSimulator.exe
+c:\users\anna\documents\visual studio 2013\Projects\TuringMachineSimulator\TuringMachineSimulator\obj\Debug\TuringMachineSimulator.pdb
