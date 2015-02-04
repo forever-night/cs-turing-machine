@@ -25,15 +25,9 @@ namespace TuringMachineSimulator
         }
 
 
-        public string GetWrite()
-        {
-            return this.finalSymbol;
-        }
+        public string GetWrite() { return this.finalSymbol; }
 
 
-        public State GetNextState()
-        {
-            return this.finalState;
-        }
+        public State GetNextState() { return this.finalState; }
     }
 }

@@ -28,22 +28,13 @@ namespace TuringMachineSimulator
         }
 
 
-        public State GetState()
-        {
-            return currentState;
-        }
+        public State GetState() { return currentState; }
 
 
-        public void SetState(State newState)
-        {
-            this.currentState = newState;
-        }
+        public void SetState(State newState) { this.currentState = newState; }
         
         
-        public void AddState(State state)
-        {
-            states.Add(state.GetName(), state);
-        }
+        public void AddState(State state) { states.Add(state.GetName(), state); }
 
 
         public void AddTransition(
@@ -56,8 +47,8 @@ namespace TuringMachineSimulator
             State finState = FindState(finStateName);
 
 
-            if (inState == null)
-                Console.WriteLine("initial state not found: {0}", inStateName);
+			//if (inState == null)
+			//	Console.WriteLine("initial state not found: {0}", inStateName);
 
             if (finState == null)
             {
@@ -103,9 +94,7 @@ namespace TuringMachineSimulator
             bool exists = states.TryGetValue(stateName, out state);
 
             if (!exists)
-            {
                 Console.WriteLine("state not found: {0}", stateName);
-            }
             
             return state;
         }        

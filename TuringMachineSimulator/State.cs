@@ -10,14 +10,10 @@ namespace TuringMachineSimulator
     {
         private string name;
 
-        private bool isHalt;
-        private bool isAccept;
+		private bool isHalt, isAccept;
 
 
-        public State(string name)
-        {
-            this.name = name;
-        }
+        public State(string name) { this.name = name; }
 
 
         /// <summary>
@@ -39,14 +35,11 @@ namespace TuringMachineSimulator
         }
 
 
-        public string GetName()
-        {
-            return name;
-        }
+        public string GetName() { return name; }
 
 
-        public bool IsHalt
-        {
+        public bool IsHalt 
+		{
             get { return isHalt; }
             set { isHalt = value; }
         }
